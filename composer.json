@@ -1,0 +1,34 @@
+{
+    "name": "stixcode/basic-eloquent",
+    "description": "Repositorio de practicas con eloquent",
+    "type": "practices",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erick Tucto",
+            "email": "erick.tucto@outlook.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/database": "^7.21",
+        "vlucas/phpdotenv": "^5.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BasicEloquent\\": "src/"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
