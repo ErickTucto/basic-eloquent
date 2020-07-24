@@ -1,7 +1,8 @@
 <?php
 
-namespace Tests;
+namespace Tests\Unit;
 
+use Tests\TestCase;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 class DatabaseTest extends TestCase
