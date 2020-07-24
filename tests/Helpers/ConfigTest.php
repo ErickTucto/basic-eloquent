@@ -2,7 +2,7 @@
 
 namespace Tests\Helpers;
 
-use PHPUnit\Framework\TestCase;
+use Tests\TestCase;
 
 class ConfigTest extends TestCase
 {
